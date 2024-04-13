@@ -6,7 +6,7 @@ export default function About(){
         <h3>Software Engineer & Designer</h3>
 
         <p>
-          Based in New York, I am a Care Management Coordinator transition to Software Engineering. I'm currently a student at Fullstack Academy, expected Apr 2024. I enjoy the challenge, always yearning to learn and passionate for innovation. I also love traveling ✈️, listening to music 🎵, watching kdramas/anime 📺, playing video games 🎮, everything matcha 🍵 & bubble tea 🧋
+          Based in New York, Care Management Coordinator transitioning to Software Engineering. Student at Fullstack Academy, expected Apr 2024. I enjoy the challenge, always yearning to learn and passionate for innovation. Loves traveling ✈️, listening to music 🎵, watching kdramas/anime 📺, playing video games 🎮, everything matcha 🍵 & bubble tea 🧋
         </p>
 
         <h3 className="skills">Skills</h3>

@@ -22,7 +22,7 @@ export const casDataCard = [
   },
   {
     img: ovenbird1,
-    alt: "Ovenbird Conference, 2016"
+    alt: "Ovenbird Conference, 2015"
   },
   {
     img: soe1,
