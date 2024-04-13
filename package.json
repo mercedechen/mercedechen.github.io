@@ -2,7 +2,7 @@
   "name": "portfolio",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://mercedechen.github.io/portfolio/",
+  "homepage": "https://mercedechen.github.io/",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",

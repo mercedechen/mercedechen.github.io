@@ -8,10 +8,10 @@ export default function Navigation(){
   return (
     <>
       <div className="nav">
-        <NavLink to="/portfolio">Home</NavLink>
-        <NavLink to="/portfolio/about">About</NavLink>
-        <NavLink to="/portfolio/projects">Projects</NavLink>
-        <NavLink to="/portfolio/extras">Extras</NavLink>
+        <NavLink to="/">Home</NavLink>
+        <NavLink to="/about">About</NavLink>
+        <NavLink to="/projects">Projects</NavLink>
+        <NavLink to="/extras">Extras</NavLink>
       </div>
       
       <Socials/>
