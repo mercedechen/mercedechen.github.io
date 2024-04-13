@@ -1,5 +1,7 @@
 body {
   font-family: 'Open Sans', 'Inter', 'Helvetica Neue', 'Arial', sans-serif;
+  font-size: 12pt;
+  line-height: 1.5;
   position: relative;
   max-width: 100%;
   margin: 0 auto;
@@ -7,9 +9,14 @@ body {
   color: #432371;
 }
 
+h2, h3 {
+  margin: 0;
+  padding: 0;
+}
+
 a, a:visited {
   text-decoration: none;
-  color: #432371;
+  color: #FAAE7B;
 }
 
 .nav {
@@ -23,9 +30,69 @@ a, a:visited {
 }
 
 .nav a {
+  color: #432371;
   margin: 0px 15px;
 }
 
 .carousel-img {
   width: 100%;
+}
+
+/* About */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+}
+
+.profile {
+  text-align: right;
+  width: 600px;
+}
+
+.profile h2 {
+  font-size: 50pt;
+  text-transform: uppercase;
+}
+
+.profile p {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+.skills, .skillItems {
+  text-align: left;
+}
+
+.skills {
+  margin: 20px 0 0 0;
+}
+
+.skillItems {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin: 0;
+  padding: 0;
+}
+
+.resume {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background-color: #432371;
+  color: #FFFFFF;
+  font-family: inherit;
+  font-size: 12pt;
+  width: 100px;
+  padding: 5px 15px;
+  margin: 50px auto 0 auto;
+  border-radius: 15px;
+  opacity: 20%;
+  
 }

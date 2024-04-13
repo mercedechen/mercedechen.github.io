@@ -21,15 +21,15 @@ export default function App() {
             element={<Home/>}
           />
           <Route
-            path="/about"
+            path="/portfolio/about"
             element={<About/>}
           />
           <Route 
-            path="/projects"
+            path="/portfolio/projects"
             element={<Projects/>}
           />
           <Route
-            path="/extras"
+            path="/portfolio/extras"
             element={<Extras/>}
           />
         </Routes>
