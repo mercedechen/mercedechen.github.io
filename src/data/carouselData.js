@@ -6,16 +6,16 @@ export const carouselData = [
   {
     id: 1,
     img: image1,
-    title: "",
+    alt: "Flight to SK, 2016"
   },
   {
     id: 2,
     img: image2,
-    title: "",
+    alt: "Lilypad Garden, 2016"
   },
   {
     id: 3,
     img: image3,
-    title: "",
+    alt: "Winter at Wolfe's Pond, 2019"
   }
 ]

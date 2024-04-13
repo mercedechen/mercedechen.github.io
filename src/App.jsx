@@ -15,8 +15,9 @@ export default function App() {
         <Navigation/>
 
         <Routes>
+          {/* path needs to be changed to "/" once github page is changed to mercedechen.github.io/ */}
           <Route 
-            path="/"
+            path="/portfolio"
             element={<Home/>}
           />
           <Route

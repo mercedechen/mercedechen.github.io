@@ -7,7 +7,9 @@ const [currentIndex, setCurrentIndex] = useState(0);
 
   return (
     <>
-      <img src={carouselData[currentIndex].img}/>
+      <img 
+        src={carouselData[currentIndex].img} alt={carouselData[currentIndex].alt}
+      />
     </>
   )
 }
