@@ -1,5 +1,3 @@
-import profileImg from "../assets/images/mercede.jpeg";
-
 export default function About(){
   return (
     <div className="container">
@@ -25,7 +23,7 @@ export default function About(){
           <li>Test Driven Environments</li>
         </ul>
 
-          <button className="resume">Resume</button>
+        <button className="resume">Resume</button>
       </div>
     </div>
   )
