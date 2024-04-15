@@ -1,6 +1,6 @@
 // React
 import React, {useState, useEffect} from "react";
-// import { GoArrowLeft, GoArrowRight } from "react-icons/go";
+import { GoArrowLeft, GoArrowRight } from "react-icons/go";
 
 export default function Carousel({carouselData}){
   const [currentImg, setCurrentImg] = useState(0);
@@ -21,16 +21,17 @@ export default function Carousel({carouselData}){
   }
 
   const handlePrev = () => {
-    setCurrentImg((prevImg) => (prevImg -1) % carouselData.length);
+    setCurrentImg((prevImg) => ((prevImg - 1) + carouselData.length) % carouselData.length);
     setPauseAutoPlay(false);
   }
 
   return (
     <>
+      <div className="arrow">
+        <button onClick={handlePrev} className="arrowLeft"><GoArrowLeft/></button>
+        <button onClick={handleNext} className="arrowRight"><GoArrowRight/></button>
+      </div>
       <img src={carouselData[currentImg].img} alt={carouselData[currentImg].alt} className="carousel-img"/>
-
-      {/* <button onClick={handlePrev}><GoArrowLeft/></button> */}
-      {/* <button onClick={handleNext}><GoArrowRight/></button> */}
     </>
   )
 }
