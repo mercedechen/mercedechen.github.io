@@ -19,7 +19,9 @@ a, a:visited {
 }
 
 .nav {
-  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
+  display: flex;
+  justify-content: space-between;
+  background-image: linear-gradient(to right, rgba(235, 244, 245, 0.5), rgba(255, 255, 255, 0));
   font-weight: 600;
   text-transform: lowercase;
   padding: 3px 0px 3px 30px;
@@ -31,6 +33,24 @@ a, a:visited {
 .nav a {
   color: #432371;
   margin: 0px 15px;
+}
+
+.socials {
+  display: flex;
+  flex-direction: row;
+  margin-right: 25px;
+}
+
+.socials a {
+  margin: auto 5px;
+  padding: 0;
+}
+
+.socials img {
+  display: block;
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
 }
 
 .carousel-img {
@@ -114,5 +134,4 @@ li {
   margin: 50px auto 0 auto;
   border-radius: 15px;
   opacity: 20%;
-  
 }
