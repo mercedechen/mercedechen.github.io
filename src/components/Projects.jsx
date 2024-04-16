@@ -1,17 +1,18 @@
-import {casDataCard} from "../data/casData";
 import "../styles/projects.css";
+import {casDataCard} from "../data/casData";
+import capstone from "../assets/fsa/capstone-ui.png";
+import FullstackAcademy from "../components/FullstackAcademy.jsx";
 
 export default function Projects(){
   return (
     <div className="container">
+      <FullstackAcademy/>
       <div className="internship">
-        <h3>Creative Design Services for the College of Arts and Sciences, University at Buffalo</h3>
+        {/* <h3>Creative Design Services for the College of Arts and Sciences, University at Buffalo</h3> */}
         {
-          casDataCard?.map((item) => {
+          casDataCard?.map((item, index) => {
             return (
-              <div key={item.id}>
-                <img src={item.img}/>
-              </div>
+              <img src={item.img} key={index}/>
             )
           })
         }
