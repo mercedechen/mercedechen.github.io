@@ -8,7 +8,7 @@ export default function Projects(){
     <div className="container">
       <FullstackAcademy/>
       <div className="internship">
-        {/* <h3>Creative Design Services for the College of Arts and Sciences, University at Buffalo</h3> */}
+        <h3>Creative Design Services for the College of Arts and Sciences, University at Buffalo</h3>
         {
           casDataCard?.map((item, index) => {
             return (
