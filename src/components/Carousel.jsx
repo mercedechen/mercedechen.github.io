@@ -28,8 +28,8 @@ export default function Carousel({carouselData}){
   return (
     <>
       <div className="arrow">
-        <button onClick={handlePrev} className="arrowLeft"><GoArrowLeft/></button>
-        <button onClick={handleNext} className="arrowRight"><GoArrowRight/></button>
+        <button onClick={handlePrev}><GoArrowLeft/></button>
+        <button onClick={handleNext}><GoArrowRight/></button>
       </div>
       <img src={carouselData[currentImg].img} alt={carouselData[currentImg].alt} className="carousel-img"/>
     </>
