@@ -2,6 +2,9 @@ import "../styles/projects.css";
 import {casDataCard} from "../data/casData";
 import capstone from "../assets/fsa/capstone-ui.png";
 
+// React
+import { Link } from "react-router-dom";
+
 export default function Projects(){
   return (
     <div className="container">
@@ -12,7 +15,9 @@ export default function Projects(){
             <p>
               SHOP is taking matters into their own hands to revolution the entire e-commerce experience. Founded in 2023, SHOP had one vital focus: to tackle consumer frustration. The proposed solution was to create a platform where everyone, no matter the location, has access to shop to their hearts' content, all in one platform. They have a growing catalog and special releases all lined up.
             </p>
-            <a href="/shop"><button>Read More...</button></a>
+            <Link to="/shop">
+              <button>Read More...</button>
+            </Link>
           </div>
           <img src={capstone}/>
         </div>

@@ -17,7 +17,6 @@ export default function App() {
         <Navigation/>
 
         <Routes>
-          {/* path needs to be changed to "/" once github page is changed to mercedechen.github.io/ */}
           <Route 
             path="/"
             element={<Home/>}
@@ -30,10 +29,10 @@ export default function App() {
             path="/projects"
             element={<Projects/>}
           />
-            <Route
-              path="/shop"
-              element={<Shop/>}
-            />
+          <Route
+            path="/shop"
+            element={<Shop/>}
+          />
           <Route
             path="/extras"
             element={<Extras/>}
