@@ -24,7 +24,7 @@ export default function Shop(){
           <h4>Wireframe</h4>
           <img src={wireframe}/>
           
-          <h4>Plan</h4>
+          <h4>Planning</h4>
           <img src={planning}/>
         </div>
       </div>

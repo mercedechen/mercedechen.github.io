@@ -13,10 +13,10 @@ export default function Projects(){
           <div className="details">
             <h3>Meet the Future of Shopping</h3>
             <p>
-              SHOP is taking matters into their own hands to revolution the entire e-commerce experience. Founded in 2023, SHOP had one vital focus: to tackle consumer frustration. The proposed solution was to create a platform where everyone, no matter the location, has access to shop to their hearts' content, all in one platform. They have a growing catalog and special releases all lined up.
+              SHOP is taking matters into their own hands and revolutionizing the entire e-commerce experience. Founded in 2023, SHOP had one vital focus: to tackle consumer frustrations. The proposed solution was to create a platform where everyone, no matter the location, has access to shop to their hearts' content, all in one platform. They have a growing catalog and special releases all lined up...
             </p>
             <Link to="/shop">
-              <button>Read More...</button>
+              <button>Read More</button>
             </Link>
           </div>
           <img src={capstone}/>

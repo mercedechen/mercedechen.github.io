@@ -11,15 +11,13 @@
 .project {
   display: flex;
   flex-direction: row;
-  margin-bottom: 25px;
-}
-
-.project img {
-  padding: 0 25px;
+  padding: 50px 100px;
+  background-color: #FFFFFF;
 }
 
 .project img {
   width: 50%;
+  margin-left: 40px;
 }
 
 .details h3 {
@@ -45,14 +43,15 @@
 .internship {
   display: grid;
   grid-template-columns: repeat(3, 300px);
-  margin-top: 100px;
-  width: 100%;
+  margin-top: 50px;
+  background-color: #FFFFFF;
+  padding: 50px 100px;
 }
 
 .internship h3 {
   grid-area: 1 / 1 / 2 / 5;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .internship img {

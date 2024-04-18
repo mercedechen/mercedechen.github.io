@@ -1,6 +1,7 @@
 /* SHOP */
 .description {
-  width: 1000px;
+  background-color: #FFFFFF;
+  padding: 50px 100px;
 }
 
 .description h3 {
