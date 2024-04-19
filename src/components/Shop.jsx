@@ -1,5 +1,4 @@
-import "../styles/projects.css";
-import "../styles/shop.css";
+import "../styles/work.css";
 import capstone from "../assets/fsa/capstone-ui.png";
 import wireframe from "../assets/fsa/capstone-wireframe.jpg";
 import planning from "../assets/fsa/capstone-planning.png";
@@ -7,7 +6,7 @@ import planning from "../assets/fsa/capstone-planning.png";
 export default function Shop(){
   return (
     <div className="container">
-      <div className="fsa">
+      <div className="section">
         <div className="description">
           <h3>Meet the Future of Shopping</h3>
           <p>

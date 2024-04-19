@@ -5,7 +5,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./components/Home.jsx";
 import Navigation from "./components/Navigation.jsx";
 import About from "./components/About.jsx";
-import Projects from "./components/Projects.jsx";
+import Work from "./components/Work.jsx";
 import Shop from "./components/Shop.jsx";
 import Extras from "./components/Extras.jsx";
 import Footer from "./components/Footer.jsx";
@@ -26,8 +26,8 @@ export default function App() {
             element={<About/>}
           />
           <Route 
-            path="/projects"
-            element={<Projects/>}
+            path="/work"
+            element={<Work/>}
           />
           <Route
             path="/shop"
@@ -38,7 +38,7 @@ export default function App() {
             element={<Extras/>}
           />
         </Routes>
-        
+
         <Footer/>
       </BrowserRouter>
 

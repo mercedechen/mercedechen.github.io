@@ -11,7 +11,7 @@ export default function Navigation(){
         <div>
           <NavLink to="/">Home</NavLink>
           <NavLink to="/about">About</NavLink>
-          <NavLink to="/projects">Projects</NavLink>
+          <NavLink to="/work">Work</NavLink>
           {/* <NavLink to="/extras">Extras</NavLink> */}
         </div>
         <Socials/>
