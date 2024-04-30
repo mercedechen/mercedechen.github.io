@@ -2,6 +2,7 @@ import "../styles/work.css";
 import {casDataCard} from "../data/casData";
 import {typography} from "../data/typography";
 import capstone from "../assets/fsa/capstone-ui.png";
+import bookbuddy from "../assets/fsa/bookbuddy-ui.png";
 
 // React
 import { Link } from "react-router-dom";
@@ -22,11 +23,22 @@ export default function Work(){
           </div>
           <img src={capstone}/>
         </div>
+        <div className="project">
+          <div>
+            <h3>Book Buddy</h3>
+            <p>
+              An online public library service called "Book Buddy" that offers free access to a collection of books. Users can browse the library, register, and log in to their accounts to manage their reading preferences and borrowing history.
+            </p>
+            <Link to="/bookbuddy">
+              <button>Read More</button>
+            </Link>
+          </div>
+          <img src={bookbuddy}/>
+        </div>
       </div>
 
       <div className="section">
         <div className="typography">
-          <h3>Typography</h3>
           {
             typography?.map((item, idx) => {
               return (

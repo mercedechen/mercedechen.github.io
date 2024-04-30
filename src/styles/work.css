@@ -17,6 +17,7 @@
 .project {
   display: flex;
   flex-direction: row;
+  margin-bottom: 40px;
 }
 
 .project img {
