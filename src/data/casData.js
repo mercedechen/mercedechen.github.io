@@ -1,15 +1,15 @@
-import blackstone1 from "../assets/internship/blackstone-launchpad-card.jpg";
-import blackstone2 from "../assets/internship/blackstone-launchpad.jpg";
-import lehrer1 from "../assets/internship/lehrer-dance.jpg";
-import lehrer2 from "../assets/internship/lehrer-dance-summer-intensive.jpg";
-import ovenbird1 from "../assets/internship/ovenbird-conference.jpg";
-import ovenbird2 from "../assets/internship/ovenbird-conference-program.jpg";
-import soe1 from "../assets/internship/SOE2016.jpg";
-import soe2 from "../assets/internship/SOE2016PKG.jpg";
-import ubhum1 from "../assets/internship/ub-humanities-institute.jpg";
-import ubhum2 from "../assets/internship/ub-humanities-institute-mailer.jpg";
-import ubsocio1 from "../assets/internship/ub-sociology.jpg";
-import ubsocio2 from "../assets/internship/ub-sociology-card.jpg";
+import blackstone1 from "../assets/projects/blackstone-launchpad-card.jpg";
+import blackstone2 from "../assets/projects/blackstone-launchpad.jpg";
+import lehrer1 from "../assets/projects/lehrer-dance.jpg";
+import lehrer2 from "../assets/projects/lehrer-dance-summer-intensive.jpg";
+import ovenbird1 from "../assets/projects/ovenbird-conference.jpg";
+import ovenbird2 from "../assets/projects/ovenbird-conference-program.jpg";
+import soe1 from "../assets/projects/SOE2016.jpg";
+import soe2 from "../assets/projects/SOE2016PKG.jpg";
+import ubhum1 from "../assets/projects/ub-humanities-institute.jpg";
+import ubhum2 from "../assets/projects/ub-humanities-institute-mailer.jpg";
+import ubsocio1 from "../assets/projects/ub-sociology.jpg";
+import ubsocio2 from "../assets/projects/ub-sociology-card.jpg";
 
 export const casDataCard = [
   {

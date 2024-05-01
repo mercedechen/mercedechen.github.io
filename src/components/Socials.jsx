@@ -1,6 +1,6 @@
-import instagram from "../assets/instagram.png";
-import linkedin from "../assets/linkedin.png";
-import github from "../assets/github.png";
+import instagram from "../assets/socials/instagram.png";
+import linkedin from "../assets/socials/linkedin.png";
+import github from "../assets/socials/github.png";
 
 export default function Socials(){
   return (
