@@ -1,4 +1,4 @@
-import {mech} from "../data/mech.js";
+import {twitch, illustrations} from "../data/mech.js";
 
 export default function Mech(){
   return (
@@ -9,7 +9,19 @@ export default function Mech(){
         </p>
         <div className="twitch">
           {
-            mech?.map((item, idx) => {
+            twitch?.map((item, idx) => {
+              return (
+                <div key={idx}>
+                  <h3>{item.title}</h3>
+                  <img src={item.img}/>
+                </div>
+              )
+            })
+          }
+        </div>
+        <div className="illustrations">
+          {
+            illustrations?.map((item, idx) => {
               return (
                 <div key={idx}>
                   <h3>{item.title}</h3>

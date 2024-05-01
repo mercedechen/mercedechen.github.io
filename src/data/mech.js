@@ -2,8 +2,9 @@ import baskerville from "../assets/mech/baskerville.jpg";
 import kimchkim from "../assets/mech/kimchkim.jpg";
 import aivan from "../assets/mech/aivano3o.jpg";
 import jrpgs from "../assets/mech/jrpgs.jpg";
+import beidou from "../assets/mech/genshin-impact-beidou.png";
 
-export const mech = [
+export const twitch = [
   // {
   //   title: "John Baskerville",
   //   img: baskerville,
@@ -21,5 +22,12 @@ export const mech = [
     img: jrpgs,
     alt: "Custom subscription badge created for Twitch streamer, JRPGS"
   }
+]
 
+export const illustrations = [
+  {
+    title: "Beidou from Genshin Impact",
+    alt: "Fan art of Beidou from Genshin Impact",
+    img: beidou
+  }
 ]

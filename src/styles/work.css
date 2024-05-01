@@ -77,3 +77,17 @@
 .twitch img {
   margin: 20px;
 }
+
+.illustrations {
+  display: flex;
+  justify-content: center;
+}
+
+.illustrations h3 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.illustrations img {
+  width: 300px;
+}
