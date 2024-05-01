@@ -42,27 +42,12 @@
   text-transform: uppercase;
 }
 
-/* Research */
-.research {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-}
-
-.research h3 {
-  margin: 10px 40px;
-}
-
-.research img {
-  width: 400px;
-  margin: 0 40px;
-}
-
 /* CAS */
 .cas {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 100px;
 }
 
 .casCards {

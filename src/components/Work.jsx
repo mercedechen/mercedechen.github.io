@@ -1,6 +1,5 @@
 import "../styles/work.css";
 import {casDataCard} from "../data/casData";
-import {research} from "../data/research.js";
 
 // Project Previews
 import capstone from "../assets/projects/capstone-ui.png";
@@ -52,19 +51,6 @@ export default function Work(){
           </div>
           <img src={marishopcalc}/>
         </div>
-
-        {/* <div className="research">
-            {
-              research?.map((item, idx) => {
-                return (
-                  <div key={idx}>
-                    <h3>{item.title}</h3>
-                    <img src={item.img}/>
-                  </div>
-                )
-              })
-            }
-        </div> */}
         
         <div className="cas">
           <h3>
