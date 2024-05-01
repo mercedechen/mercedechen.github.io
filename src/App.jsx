@@ -8,6 +8,7 @@ import About from "./components/About.jsx";
 import Work from "./components/Work.jsx";
 import Shop from "./components/Shop.jsx";
 import BookBuddy from "./components/BookBuddy.jsx";
+import MariShopCalc from "./components/MariShopCalc.jsx";
 import Mech from "./components/Mech.jsx";
 import Footer from "./components/Footer.jsx";
 
@@ -37,6 +38,10 @@ export default function App() {
           <Route
             path="/bookbuddy"
             element={<BookBuddy/>}
+          />
+          <Route
+            path="/marishopcalc"
+            element={<MariShopCalc/>}
           />
           <Route
             path="/mech"
