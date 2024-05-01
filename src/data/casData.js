@@ -13,54 +13,54 @@ import ubsocio2 from "../assets/internship/ub-sociology-card.jpg";
 
 export const casDataCard = [
   {
-    img: blackstone1,
-    alt: "Blackstone Laundpad, 2016"
-  },
-  {
     img: lehrer1,
     alt: "Lehrer Dance Summer Intensive, 2016"
-  },
-  {
-    img: ovenbird1,
-    alt: "Ovenbird Conference, 2015"
-  },
-  {
-    img: soe1,
-    alt: "Scholars of Excellence, 2016"
   },
   {
     img: ubhum1,
     alt: "Humanities Institute, Unversity at Buffalo, 2016"
   },
   {
+    img: ovenbird1,
+    alt: "Ovenbird Conference, 2015"
+  },
+  {
+    img: blackstone1,
+    alt: "Blackstone Laundpad, 2016"
+  },
+  {
     img: ubsocio1,
     alt: "Sociology, University at Buffalo, 2016"
+  },
+  {
+    img: soe1,
+    alt: "Scholars of Excellence, 2016"
   }
 ]
 
-export const casData = [
-  {
-    img: blackstone2,
-    alt: "Blackstone Laundpad Pkg, 2016"
-  },
-  {
-    img: lehrer2,
-    alt: "Lehrer Dance Summer Intensive Pkg, 2016"
-  },
-  {
-    img: ovenbird2,
-    alt: "Ovenbird Conference Program Pkg, 2016"
-  },
-  {
-    img: soe2,
-    alt: "Scholars of Excellence Pkg, 2016"
-  },
-  {
-    img: ubhum2,
-    alt: "Humanities Institute, Unversity at Buffalo Pkg, 2016"
-  },
-  {
-    img: ubsocio2,
-    alt: "Sociology, University at Buffalo Pkg, 2016"
-  }
-]
+// export const casData = [
+//   {
+//     img: blackstone2,
+//     alt: "Blackstone Laundpad Pkg, 2016"
+//   },
+//   {
+//     img: lehrer2,
+//     alt: "Lehrer Dance Summer Intensive Pkg, 2016"
+//   },
+//   {
+//     img: ovenbird2,
+//     alt: "Ovenbird Conference Program Pkg, 2016"
+//   },
+//   {
+//     img: soe2,
+//     alt: "Scholars of Excellence Pkg, 2016"
+//   },
+//   {
+//     img: ubhum2,
+//     alt: "Humanities Institute, Unversity at Buffalo Pkg, 2016"
+//   },
+//   {
+//     img: ubsocio2,
+//     alt: "Sociology, University at Buffalo Pkg, 2016"
+//   }
+// ]

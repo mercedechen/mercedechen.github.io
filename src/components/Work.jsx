@@ -16,7 +16,7 @@ export default function Work(){
       <div className="section">
         <div className="project">
           <div>
-            <h3>Meet the Future of SHOP-ping</h3>
+            <h3>SHOP</h3>
             <p>
               SHOP is taking matters into their own hands and revolutionizing the entire e-commerce experience. Founded in 2023, SHOP has one vital focus: to tackle the top consumer frustrations. The proposed solution was to create a platform where everyone, regardless of location, has access to shop to their hearts' content all in one platform. They have a growing catalog and special releases all lined up...
             </p>
@@ -53,7 +53,7 @@ export default function Work(){
           <img src={marishopcalc}/>
         </div>
 
-        <div className="research">
+        {/* <div className="research">
             {
               research?.map((item, idx) => {
                 return (
@@ -64,21 +64,23 @@ export default function Work(){
                 )
               })
             }
+        </div> */}
+        
+        <div className="cas">
+          <h3>
+            Creative Design Services for the College of Arts and Sciences, University at Buffalo
+          </h3>
+          <div className="casCards">
+            {
+              casDataCard?.map((item, index) => {
+                return (
+                  <img src={item.img} key={index}/>
+                )
+              })
+            }
+          </div>
         </div>
       </div>
-      
-      {/* <div className="section">
-        <div className="cas">
-          <h3>Creative Design Services for the College of Arts and Sciences, University at Buffalo</h3>
-          {
-            casDataCard?.map((item, index) => {
-              return (
-                <img src={item.img} key={index}/>
-              )
-            })
-          }
-        </div>
-      </div> */}
     </div>
   )
 }
