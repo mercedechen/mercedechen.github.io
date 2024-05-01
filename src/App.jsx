@@ -8,7 +8,7 @@ import About from "./components/About.jsx";
 import Work from "./components/Work.jsx";
 import Shop from "./components/Shop.jsx";
 import BookBuddy from "./components/BookBuddy.jsx";
-import Extras from "./components/Extras.jsx";
+import Mech from "./components/Mech.jsx";
 import Footer from "./components/Footer.jsx";
 
 export default function App() {
@@ -39,8 +39,8 @@ export default function App() {
             element={<BookBuddy/>}
           />
           <Route
-            path="/extras"
-            element={<Extras/>}
+            path="/mech"
+            element={<Mech/>}
           />
         </Routes>
 

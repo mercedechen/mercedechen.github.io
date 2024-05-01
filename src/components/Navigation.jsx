@@ -12,7 +12,7 @@ export default function Navigation(){
           <NavLink to="/">Home</NavLink>
           <NavLink to="/about">About</NavLink>
           <NavLink to="/work">Work</NavLink>
-          {/* <NavLink to="/extras">Extras</NavLink> */}
+          <NavLink to="/mech">MECH</NavLink>
         </div>
         <Socials/>
       </div>

@@ -1,6 +1,6 @@
 import "../styles/work.css";
 import {casDataCard} from "../data/casData";
-import {typography} from "../data/typography";
+import {research} from "../data/research.js";
 import capstone from "../assets/fsa/capstone-ui.png";
 import bookbuddy from "../assets/fsa/bookbuddy-ui.png";
 
@@ -38,14 +38,17 @@ export default function Work(){
       </div>
 
       <div className="section">
-        <div className="typography">
-          {
-            typography?.map((item, idx) => {
-              return (
-                <img src={item.img} key={idx}/>
-              )
-            })
-          }
+        <div className="research">
+            {
+              research?.map((item, idx) => {
+                return (
+                  <div key={idx}>
+                    <h3>{item.title}</h3>
+                    <img src={item.img}/>
+                  </div>
+                )
+              })
+            }
         </div>
       </div>
       

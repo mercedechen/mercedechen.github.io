@@ -42,13 +42,20 @@
   text-transform: uppercase;
 }
 
-/* Typography */
-.typography {
+/* Research */
+.research {
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  align-items: center;
   width: 100%;
+}
+
+.research h3 {
+  margin: 10px 40px;
+}
+
+.research img {
+  width: 400px;
+  margin: 0 40px;
 }
 
 /* CAS */

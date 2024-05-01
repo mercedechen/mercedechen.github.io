@@ -1,12 +1,15 @@
+#root {
+  height: 94vh;
+}
+
 body {
-  font-family: 'Open Sans', 'Inter', 'Arial', sans-serif;
-  font-size: 12pt;
-  line-height: 1.5;
+  background-color: rgb(10,10,10);
   position: relative;
-  margin: 0 auto;
-  padding: 0;
+  margin: 25px 56px;
+  font-family: 'Open Sans', 'Inter', 'Arial', sans-serif;
+  font-size: 10pt;
   color: #432371;
-  background-color: #FAFAFA;
+  line-height: 1.5;
 }
 
 h2, h3, h4, p {
@@ -19,42 +22,33 @@ a, a:visited {
   color: #FAAE7B;
 }
 
+/* Navigation */
 .nav {
   display: flex;
   justify-content: space-between;
-  background-image: linear-gradient(to right, rgba(235, 244, 245, 0.5), rgba(255, 255, 255, 0));
-  font-weight: 600;
-  text-transform: lowercase;
-  padding: 3px 0px 3px 30px;
+  align-items: center;
+  text-transform: uppercase;
+  background: #FFFFFF;
+  padding: 5px 30px;
   width: 100%;
-  position: absolute;
+  position: absolute; /* navbar will overlap on top of imgs */
   box-sizing: border-box;
+  border-radius: 5px 5px 0 0;
+  font-size: 9pt;
 }
 
 .nav a {
   color: #432371;
   margin: 0px 15px;
-  padding: 5px;
 }
 
-.nav a:hover {
-  background-color: #D9D9D9;
-  padding: 5px;
-}
-
+/* Socials */
 .socials {
   display: flex;
-  flex-direction: row;
-  margin-right: 25px;
 }
 
 .socials a {
-  margin: auto 5px;
-  padding: 0;
-}
-
-.socials a:hover {
-  background-color: transparent;
+  margin: 0 5px;
   padding: 0;
 }
 
@@ -65,19 +59,22 @@ a, a:visited {
   object-fit: cover;
 }
 
+/* Image Slider */
 .carousel-img {
   width: 100%;
-  height: 100vh;
+  height: 100%;
   object-fit: cover;
+  border-radius: 0 0 5px 5px;
 }
 
 .arrow {
-  position: absolute;
-  bottom: 50%;
+  position: absolute; /* moves an element relative to its nearest positioned ancestor (body) */
+  bottom: 45%;
   left: 0;
   right: 0;
   display: flex;
   justify-content: space-between;
+  margin: 0 5px;
 }
 
 .arrow button {
