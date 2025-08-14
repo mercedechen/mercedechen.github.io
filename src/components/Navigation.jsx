@@ -9,10 +9,10 @@ export default function Navigation(){
     <>
       <div className="nav">
         <div>
-          <NavLink to="/">Home</NavLink>
-          <NavLink to="/about">About</NavLink>
-          <NavLink to="/work">Work</NavLink>
-          <NavLink to="/mech">MECH</NavLink>
+          {/* <NavLink to="/">Home</NavLink> */}
+          {/* <NavLink to="/about">About</NavLink> */}
+          {/* <NavLink to="/work">Work</NavLink> */}
+          {/* <NavLink to="/mech">MECH</NavLink> */}
         </div>
         <Socials/>
       </div>
