@@ -23,7 +23,9 @@ dist-ssr
 *.sln
 *.sw?
 
+
 # Temporary
 About.jsx
 Work.jsx
 Commissions.jsx
+2025/

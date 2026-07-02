@@ -1,0 +1,18 @@
+body {
+  margin: 50px 75px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11pt;
+}
+
+#logo {
+  width: 75px;
+}
+
+.container {
+  border: 1px solid #000;
+  height: 80vh;
+}
+
+footer {
+  text-align: center;
+}
